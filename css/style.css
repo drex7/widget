@@ -1,0 +1,13 @@
+div[class$='widget'] {
+    border: 1px solid black;
+    text-align: center;
+    width: max-content;
+    margin: 10px auto;
+}
+
+#ui-datepicker-div {
+    /* right: 0; */
+    /* left: 0; */
+    margin-top: 35px;
+    /* bottom: ; */
+}
