@@ -61,7 +61,8 @@ document.onreadystatechange = function() {
                 $("#ui-datepicker-div").position({
                     of: $( "#datepicker" ),
                     my: `${position[0]} ${position[1]}`,
-                    at: "right top"
+                    at: "right top",
+                    collision: "fit"
                 });
             }
             $("input").on("click", position_widget);
